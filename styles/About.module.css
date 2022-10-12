@@ -1,0 +1,55 @@
+.textLoadAnim {
+  background-image: linear-gradient(
+    -235deg,
+    #11ff00 0%,
+    #07d4db 29%,
+    #4c89af 39%,
+    #4c61af 49%,
+    #864caf 59%,
+    #af4c9d
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+  border-right: 0.05em solid white;
+  animation: text-load-anim 2s steps(44) 700ms 1 normal both,
+    blink-caret 500ms steps(44) infinite normal;
+}
+
+.fadeInAnim {
+  opacity: 0;
+  animation: fadeIn 2s 3s forwards;
+}
+
+@keyframes text-load-anim {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
