@@ -10,12 +10,15 @@ import {
   FaMobile,
 } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = ({ showSocials }) => {
   return (
     <div className="w-full h-[60px] bg-transparent fixed z-10 flex justify-between items-center p-4 py-12">
       <div className="w-10 sm:w-20 rounded-full">
-        <img
+        <Image
+        width={80}
+        height={80}
           src="https://my-portfolio-pi-murex.vercel.app/static/media/logo.a7f41cc9a14655a40552.png"
           alt="/"
           className="rounded-full"
