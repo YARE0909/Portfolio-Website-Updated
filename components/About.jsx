@@ -15,7 +15,7 @@ const About = () => {
             </div>
             <div className={`${"text-gray-400 text-base sm:text-2xl pt-6 sm:pt-12"}`}>
               <h1 className={`${styles.fadeInAnim}`}>
-              &gt;&gt;Currently I am a student at SRM Institute Of Science And
+              &gt;&gt; Currently I am a student at SRM Institute Of Science And
                 Technology getting my BTech degree in Computer Science
                 Engineering(Data Science)
               </h1>
@@ -23,19 +23,19 @@ const About = () => {
             <div className="text-gray-400 text-base sm:text-2xl pt-6">
               <h1 className={`${styles.fadeInAnim}`}>
                 {" "}
-                &gt;&gt;I enjoy the process of coding and producing quality products
+                &gt;&gt; I enjoy the process of coding and producing quality products
                 with a close attention to detail!
               </h1>
             </div>
             <div className="text-gray-400 text-base sm:text-2xl pt-6">
               <h1 className={`${styles.fadeInAnim}`}>
-              &gt;&gt;Recently I have taken a kneen interest towards web development
+              &gt;&gt; Recently I have taken a kneen interest towards web development
                 focusing more on the front end making elegant but simple UI.
               </h1>
             </div>
             <div className="text-gray-400 text-base sm:text-2xl pt-6">
               <h1 className={`${styles.fadeInAnim}`}>
-              &gt;&gt;I have picked up multiple programming languages over the years
+              &gt;&gt; I have picked up multiple programming languages over the years
                 of coding. My skillset can be viewd in the{" "}
                 <Link
                   href="/skills"
