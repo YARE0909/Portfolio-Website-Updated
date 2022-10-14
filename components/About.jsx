@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/About.module.css"
+import Link from 'next/link'
 
 const About = () => {
   return (
@@ -36,12 +37,12 @@ const About = () => {
               <h1 className={`${styles.fadeInAnim}`}>
                 -I have picked up multiple programming languages over the years
                 of coding. My skillset can be viewd in the{" "}
-                <a
+                <Link
                   href="/skills"
                   className="text-orange-500 border-b-2 border-b-orange-500"
                 >
                   skills
-                </a>{" "}
+                </Link>{" "}
                 tab
               </h1>
             </div>

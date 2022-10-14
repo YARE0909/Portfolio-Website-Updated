@@ -26,6 +26,21 @@
   opacity: 0.8;
 }
 
+.fadeInAnim {
+  opacity: 0;
+  animation: fadeIn 2s 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+
 @keyframes glitch-ani {
   0% {
     text-shadow: 0.1em 0 0 magenta, 0 0.1rem 0 rgba(0, 225, 0.75),

@@ -14,7 +14,7 @@ const Contact = () => {
             <div
               className={`${"text-gray-400 text-base sm:text-2xl pt-6 sm:pt-12"}`}
             >
-              <h1>You can find me on discord YARE#7917</h1>
+              <h1>You can find me on discord YARE#8406</h1>
             </div>
             <div className="text-gray-400 text-base sm:text-2xl pt-2">
               <p>Or you can submit the form below to contact me!</p>
