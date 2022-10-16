@@ -30,7 +30,7 @@ const Contact = () => {
               >
                 <input
                   type="text"
-                  placeholder="What do we call you?"
+                  placeholder="Hello! What is your name?"
                   name="name"
                   className="my-4 p-2 rounded-lg text-white font-semibold bg-[#2c2c7e] shadow-black shadow-lg"
                   required
