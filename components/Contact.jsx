@@ -30,14 +30,14 @@ const Contact = () => {
               >
                 <input
                   type="text"
-                  placeholder="Name"
+                  placeholder="What do we call you?"
                   name="name"
                   className="my-4 p-2 rounded-lg text-white font-semibold bg-[#2c2c7e] shadow-black shadow-lg"
                   required
                 />
                 <input
                   type="email"
-                  placeholder="E-Mail"
+                  placeholder="coolguy@somethingcool.com"
                   name="email"
                   className="my-1 p-2 rounded-lg text-white font-semibold bg-[#2c2c7e] shadow-black shadow-lg"
                   required
@@ -45,7 +45,7 @@ const Contact = () => {
                 <textarea
                   name="message"
                   rows="10"
-                  placeholder="Message"
+                  placeholder="Say something cool (or whatever you want!)"
                   className="my-1 p-2 rounded-lg text-white font-semibold bg-[#2c2c7e] shadow-black shadow-lg resize-none"
                   required
                 ></textarea>
