@@ -27,7 +27,7 @@ const Hero = ({ session }) => {
         <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full font-semibold relative">
           <p className="text-cyan-400">Hello There! I am</p>
           <div>
-            <h1 className="text-[2.8rem] md:text-7xl text-blue-400">Pradyumna D</h1>
+            <h1 className="text-[2.5rem] md:text-7xl text-blue-400">Pradyumna D</h1>
           </div>
           <div className={styles.gradientAnim}>
 
@@ -38,11 +38,7 @@ const Hero = ({ session }) => {
           <p className="text-gray-400 py-4 max-w-[700px] font-semibold">
             Currently, I'm focused on making exceptional Web Apps
           </p>
-          <div className="w-fit">
-            <button className="text-white border-2 rounded-md px-6 py-3 my-2 flex items-center hover:bg-blue-900 hover:border-blue-900 transition duration-300 hover:scale-105">
-              Contact Me
-            </button>
-          </div>
+          
         </div>
       </div>
     </div>
