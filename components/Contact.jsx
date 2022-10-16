@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className={`${"w-full h-screen bg-[#190d27]"}`}>
+    <div className={`${"w-full h-fit bg-[#190d27]"}`}>
       <div>
         <ul>
           <div className="w-full h-full pt-24 p-4 sm:p-24 text-5xl font-bold text-pink-400">
